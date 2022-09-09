@@ -1,11 +1,19 @@
-var x;
-var y;
-x=12;
-y=13;
-if (x>y) {
-    console.log(x+"is greater than"+y+".")
-} else if(x<y) {
-    console.log(y+"is greater than "+x+".");
+var array=[[89,78,64],[75,55,20]];
+array.push([45,90]);
+console.log(array);
+function check(params) {
+    console.log("hello world");
 }
-const help=document.getElementById('check');
-console.log(help);
+check();
+function try1(x,y) {
+    console.log(x-y)
+}
+try1(13,9)
+function newchange() {
+    var x;
+    x=89;
+    console.log(x);
+}
+newchange();
+
+var outfit=""
