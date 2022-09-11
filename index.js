@@ -16,4 +16,9 @@ function newchange() {
 }
 newchange();
 
-var outfit=""
+var outfit="shirt";
+function myOutfit() {
+    var outfit="sweater";
+    return outfit;
+}
+console.log(myOutfit());
