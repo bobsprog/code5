@@ -18,7 +18,10 @@ newchange();
 
 var outfit="shirt";
 function myOutfit() {
-    var outfit="sweater";
+    var outfit="t-shirt"
     return outfit;
 }
 console.log(myOutfit());
+function anotherCheck() {
+    
+}
