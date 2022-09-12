@@ -22,6 +22,10 @@ function myOutfit() {
     return outfit;
 }
 console.log(myOutfit());
-function anotherCheck() {
-    
+function changeCheck(num) {
+    return num+33;
 }
+console.log(changeCheck(67));
+
+var checkAnother=[56,78,90]
+console.log(JSON.stringify(checkAnother));
