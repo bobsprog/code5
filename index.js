@@ -99,3 +99,16 @@ function elseifcheck(val) {
 console.log(elseifcheck(15));
 
 
+function manyArrays(val){
+
+    if (val>25) {
+        return "Huge";
+    }else if(val>20){
+        return "Big";
+    }else if(val>10){
+        return "Medium";
+    }else {
+        return"Small";
+    }
+}
+console.log(manyArrays(12));
