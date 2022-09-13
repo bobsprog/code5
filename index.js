@@ -97,3 +97,5 @@ function elseifcheck(val) {
 
 }
 console.log(elseifcheck(15));
+
+
