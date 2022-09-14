@@ -112,3 +112,15 @@ function manyArrays(val){
     }
 }
 console.log(manyArrays(12));
+
+var names=[Shimwa,Bonheur]
+function StrokesCheck(strokes,num){
+    if (strokes==1) {
+        return names[0]
+    }else if(strokes<=num-1){
+        return names[1]
+    }else if(strokes<=num-2){
+        return names[2]
+    }
+}
+console.log(StrokesCheck(0,1));
