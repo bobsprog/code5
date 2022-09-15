@@ -113,14 +113,16 @@ function manyArrays(val){
 }
 console.log(manyArrays(12));
 
-var names=[Shimwa,Bonheur]
-function StrokesCheck(strokes,num){
-    if (strokes==1) {
-        return names[0]
-    }else if(strokes<=num-1){
-        return names[1]
-    }else if(strokes<=num-2){
-        return names[2]
-    }
+function isBig(a,b) {
+    return a<b;
 }
-console.log(StrokesCheck(0,1));
+console.log(isBig(23,12));
+
+function abCheck(a,b) {
+    if (a<0 || b<0 ) {
+        return undefined;
+    }
+    return Math.round(Math.pow(Math.sqrt(a)+Math.sqrt(b),2));
+}
+console.log(abCheck(2,2));
+
