@@ -1,7 +1,7 @@
 var array=[[89,78,64],[75,55,20]];
 array.push([45,90]);
 console.log(array);
-function check(params) {
+function check() {
     console.log("hello world");
 }
 check();
@@ -125,4 +125,53 @@ function abCheck(a,b) {
     return Math.round(Math.pow(Math.sqrt(a)+Math.sqrt(b),2));
 }
 console.log(abCheck(2,2));
+
+var eat=6;
+function edibles(food) {
+    switch (food) {
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+            eat++;
+            break;
+    
+        case 6:
+        case 7:
+            eat--;
+            break;
+    }
+    var eat2;
+    if (eat<0) {
+        eat2="All food";
+    }
+    return eat+" "+eat2;
+}
+console.log(edibles(5));
+
+var enterFood="rice";
+
+
+var food1={
+    "favorites":enterFood,
+    "adivised":"Admin input",
+};
+
+function checkFood(Foodparam) {
+    if (checkFood.hasOwnProperty(Foodparam)) {
+        return food1[Foodparam];
+    }
+    else{
+        return"Not found";
+    }
+}
+
+console.log(checkFood("favorites"));
+
+
+
+
+
+
 
